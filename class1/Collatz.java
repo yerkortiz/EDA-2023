@@ -25,7 +25,7 @@ public class Collatz {
         }
     }
     public static void main(String[] args) {
-        collatzIterative(7);
+        //xcollatzIterative(7);
         collatzRecursive(5);
     }
 }
