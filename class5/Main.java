@@ -12,7 +12,7 @@ public class Main {
         //IterateArray.iterateArray(arr, 0);
         //System.out.println(Binary.decToBin(7));
         //System.out.printf("Fibonacci de %d es %d", 5, Fibonacci.fibonacci(6));
-        //Hanoi.hanoiTowers(3, '1', '3', '2');
+        Hanoi.hanoiTowers(3, 'A', 'C', 'B');
         //System.out.println(Examples.isOdd(2));
         //System.out.println(Examples.isEven(2));
         //System.out.println(Examples.sum(1, 1));
@@ -30,5 +30,6 @@ public class Main {
 
         //System.out.println(Examples.slowerFactorial(3));
         //System.out.println(Examples.halvesN(9));
+
     }
 }

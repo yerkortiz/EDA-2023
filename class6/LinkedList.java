@@ -35,6 +35,13 @@ public class LinkedList {
         return false;
     }
 
+    public void DeleteFirst(){
+        if (this.head == null) {
+            return;
+        } 
+        this.head = this.head.next;
+    }
+
     public void PrintLinkedList(){
         LinkedListNode aux = this.head;
         while(aux != null) {
@@ -57,6 +64,12 @@ public class LinkedList {
 
 
     public static void main(String[] args) {
-        
+        LinkedList ll = new LinkedList();
+        ll.InsertFirst(0);
+        ll.InsertFirst(1);
+        ll.InsertFirst(2);
+        ll.RecursivePrint();
+        //ll.DeleteFirst();
+        //ll.RecursivePrint();
     }
 }
