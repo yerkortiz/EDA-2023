@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.Stack;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
 public class NGE {
     // Next Greater Element es una función que calcula el siguiente
     // elemento mayor para un arraylist de enteros
@@ -46,13 +44,6 @@ public class NGE {
             System.out.printf("%d ", integer);
         }
         System.out.println();
-    }
-
-    static void Solution(){
-        Scanner stdin = new Scanner(System.in);
-        int N = stdin.nextInt();
-
-        
     }
     public static void main(String[] args) {
         var numbers1 = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5));
