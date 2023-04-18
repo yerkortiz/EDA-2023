@@ -6,7 +6,13 @@ public class Exp {
             return 1;
         }
         int pow = exp(a, n / 2);
-        return a * pow * pow;
+        if(n % 2 == 1) {
+            return a*a*pow*pow;
+        } else {
+            return a*pow*pow;
+        }
+        
+        //return exp(a, n/2)* exp(a, n/2) * a;
     }
     static int powerOfTwo(int N) {
         if(N == 0) {

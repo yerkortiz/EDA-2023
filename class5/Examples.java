@@ -51,11 +51,11 @@ public class Examples {
         return 2 * powerOfTwo(N - 1);
     }    
 
-    static int slowerPowerOfTwo(int N) {
+    static int f1(int N) {
         if(N == 0) {
             return 1;
         }
-        return slowerPowerOfTwo(N - 1) + slowerPowerOfTwo(N - 1);
+        return f1(N - 1) + f1(N - 1);
     }    
 
     static int factorial(int N) {
@@ -97,15 +97,15 @@ public class Examples {
         }
     }
 
-    static int slowerFactorial(int N) {
+    static int f(int N) {
         if(N == 0) {
             return 1;
         }
         int sum = 0;
         for(int i = 0; i < N - 1; i++){
-            sum += slowerFactorial(N - 1);
+            sum += f(N - 1);
         }
-        return sum + slowerFactorial(N - 1);
+        return sum + f(N - 1);
     }
 
     static int logTwo(int N) {
