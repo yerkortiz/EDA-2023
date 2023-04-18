@@ -30,8 +30,6 @@ public class Main {
 
         //System.out.println(Examples.slowerFactorial(3));
         //System.out.println(Examples.halvesN(9));
-        Octal.decToOctal(7);
-        Octal.decToOctal(16);
         
     }
 }

@@ -16,8 +16,8 @@ public class Main {
         // ll2.head = h;
         // ll2.printList();
         int[] a = {5, 7, 2, 4};
-        BadBubble.PrintArr(a);
-        BadBubble.bubbleSort(a);
+        //BadBubble.PrintArr(a);
+        BadBubble.badBubbleSort(a);
         BadBubble.PrintArr(a);
     }
 }
