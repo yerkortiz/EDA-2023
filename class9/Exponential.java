@@ -1,6 +1,6 @@
 package class9;
 
-public class Exp {
+public class Exponential {
     public static int F1(int A, int N){
         if(N == 0) {
             return 1;

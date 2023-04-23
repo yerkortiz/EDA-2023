@@ -13,8 +13,8 @@ public class MergeSort {
 
     static void merge(int array[], int p, int q, int r) {
 
-        int n1 = q - p + 1;
-        int n2 = r - q;
+        int n1 = q - p + 1; // mid - lo + 1
+        int n2 = r - q; // hi - mid
     
         int L[] = new int[n1];
         int M[] = new int[n2];
