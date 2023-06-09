@@ -84,16 +84,16 @@ class LinkedList {
         }
         Node prev = null;
         Node aux = head;
-        Node next = null;
+        Node temp = null;
         while(aux != null){
             //guardo el siguiente para no perderlo
-            next=aux.next;
+            temp=aux.next;
             //cambio la direccion del next
             aux.next = prev;
             //avanzo el prev
             prev = aux;
             //avanzo el aux
-            aux = next;
+            aux = temp;
         } 
         head = prev;
         return head;
